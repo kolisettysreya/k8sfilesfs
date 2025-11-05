@@ -65,7 +65,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: kolisettysreya/k8sbes201:v1
+          image: kolisettysreya/k8sbes201aws:v6
           ports:
             - containerPort: 8080
           env:
@@ -98,7 +98,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: kolisettysreya/k8sfes201:v4
+          image: kolisettysreya/k8sfes201aws:v6
           ports:
             - containerPort: 8080
           env:
